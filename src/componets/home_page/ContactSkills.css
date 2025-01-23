@@ -1,0 +1,62 @@
+.down-box {
+    padding: 50px 0;
+    background: #f9f9f9;
+  }
+  
+  .contactSkills {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .contact-info, .skills {
+    flex: 1;
+  }
+  
+  .contact-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-box {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .skills .skill-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .outer-circle {
+    position: relative;
+    display: inline-block;
+  }
+  
+  circle {
+    transition: stroke-dashoffset 0.5s ease-in-out;
+    transform: rotate(-90deg);
+    transform-origin: center;
+  }
+  
+  .counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sk-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
