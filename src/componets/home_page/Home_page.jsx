@@ -13,7 +13,7 @@ const Home_page = () => {
           </div>
 
           <p className='text-justify'>
-          My name is Rahul Vankar, and I have 2 years of experience as a Front-End Developer. I specialize in creating visually appealing and user-friendly websites and applications, leveraging advanced web design skills. I am proficient in React, Vue, and Nuxt frameworks, ensuring high-performance and modern solutions. Additionally, I have basic backend knowledge to support seamless development collaboration          </p>
+          My name is Rahul Vankar, and I have 2+ years of experience as a Front-End Developer. I specialize in creating visually appealing and user-friendly websites and applications, leveraging advanced web design skills. I am proficient in React, Vue, and Nuxt frameworks, ensuring high-performance and modern solutions. Additionally, I have basic backend knowledge to support seamless development collaboration          </p>
 
           <div className="btn-box">
             <a href="https://wa.me/8140588648?text=Hello%20Rahul%2C%20I%20am%20interested%20in%20your%20profile!" target="_blank" rel="noopener noreferrer" className="btn">

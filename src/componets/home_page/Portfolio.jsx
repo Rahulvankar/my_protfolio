@@ -14,6 +14,7 @@ const Portfolio = () => {
     { id: 6, category: 'javascript', title: 'Quiz App', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.', imgSrc: 'img/Screenshot_3.png', link:'https://quiz-app-eight-omega-51.vercel.app/'},
     { id: 7, category: 'reactjs', title: 'EMS Project', description: 'Create dynamic React apps with responsive designs that adapt across devices using modern front-end technologies', imgSrc: 'img/Screenshot_5.png', link:'https://ems-project-pi.vercel.app/' },
     { id: 8, category: 'reactjs', title: 'react web page', description: 'Create dynamic React apps with responsive designs that adapt across devices using modern front-end technologies', imgSrc: 'img/react_html.png', link:'https://rahul-gpt-3.netlify.app/' },
+    { id: 9, category: 'vue_js', title: 'Seach project', description: 'Create dynamic React apps with responsive designs that adapt across devices using modern front-end technologies', imgSrc: 'img/vuejs_project.png', link:'https://search-product-application.vercel.app' },
   ];
 
   // Function to handle filter button click
@@ -40,6 +41,12 @@ const Portfolio = () => {
           onClick={() => handleFilterClick('reactjs')}
         >
           React js Projects
+        </button>
+        <button 
+          className={`button text-lg rounded-md m-2 px-2 border border-gray-500 ${activeFilter === 'vue_js' ? 'mixitup-control-active' : ''}`} 
+          onClick={() => handleFilterClick('vue_js')}
+        >
+          Vue js Projects
         </button>
         <button 
           className={`button text-lg rounded-md m-2 px-2 border border-gray-500  ${activeFilter === 'javascript' ? 'mixitup-control-active' : ''}`} 
