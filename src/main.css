@@ -426,7 +426,8 @@ section{
 }
 
 
-.about-btn button.active{
+.about-btn button.active,
+.bg-active{
     background: var(--gradient-color-bg);
     color: #ffff;
 }
